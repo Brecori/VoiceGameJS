@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+}
+
+:root {
+    --primary-color: #DFF6FF;
+    --bg-color: #06283D;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px var(--primary-color) solid;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
